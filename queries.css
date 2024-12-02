@@ -1,0 +1,26 @@
+@media (min-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .text-box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+  }
+  /* .hero-image {
+    height: 80%;
+  }
+} */
+}
